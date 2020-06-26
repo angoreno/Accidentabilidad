@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53CF895B-D90A-5032-8C74-8F2D5462DCD3" name="profesional">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>13EA03E5-5635-F3D3-D94A-69CCD4901349</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario" id="51FACAA4-58E9-C7C5-9A76-89256F20CF54">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>2B675894-5E4C-4A48-2803-80B9CBC0EFEE</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pass" id="1955973E-5816-B58D-D650-1DEC2A1D380A">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>BBE23297-6872-0D53-8F72-FF87EC980425</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="46F8D22C-D355-4877-AE15-D4B8F18A4280">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>0459B518-5C41-2C52-0C79-B1D10540033A</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="6303B030-8EF0-7772-10C7-E0E032C5AC6B">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>B7468980-C4E0-72A0-0763-BF822D8686BA</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo id" id="BB255D03-3211-E48B-7C63-44BC18817850">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>F218F55D-73B2-E5FE-3165-A43F4E73C598</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<referedAttribute>0237CD94-F628-2A71-C080-E3D0F63E1B93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7146AE20-BFEC-223E-18A8-7EDD2C5C930F" name="usuario PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>15190C88-F6CF-69FB-F147-D2B6EA50EAC8</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51FACAA4-58E9-C7C5-9A76-89256F20CF54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

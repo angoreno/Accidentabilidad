@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4FD92A0-CBA2-D8C5-785B-5EE8DD672276" name="asesoria">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>89D7F59B-7D65-10A7-05EA-C507468D3E4D</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DE13E5AA-9B0B-FBFA-8503-EF3950C0106E">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>BFF5F39B-C6FB-2A51-6182-4DEF70468277</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asesoria" id="673A4070-1182-592C-188C-570A3FFB1DFE">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>D9D3A546-DC5A-BE11-54CD-CB42ABB1F580</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="B8130E74-C361-6863-97C8-D5C1BB865719">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>7B18E80B-96B8-1D17-A977-CEF95028B1DD</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesional usuario" id="C6808640-32A5-B161-8ADB-671DC3B8B4C7">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>86B6678D-4E06-9366-2835-F785C376951B</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<referedAttribute>51FACAA4-58E9-C7C5-9A76-89256F20CF54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente usuario" id="7577A8DD-E15D-9D1E-A2BF-A139840E190B">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>A852ED79-1AED-CF92-AC52-63C429DE65AF</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<referedAttribute>E8EC5DAC-1797-EC10-1B10-0BB59E1B6727</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="015C9FF2-79FC-4228-8B44-6B19C117EC46" name="asesoria PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>8D345721-1301-EDB5-1EA4-FCA0DBD1738C</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE13E5AA-9B0B-FBFA-8503-EF3950C0106E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

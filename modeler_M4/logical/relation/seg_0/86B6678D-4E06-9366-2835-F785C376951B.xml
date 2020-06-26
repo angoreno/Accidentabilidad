@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="asesoria_profesional_FK" directorySegmentName="seg_0" id="86B6678D-4E06-9366-2835-F785C376951B">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:24 UTC</createdTime>
+<generatorID>1C366EE0-E1BC-EDBD-CCDF-B178EE872DCC</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<sourcePk>7146AE20-BFEC-223E-18A8-7EDD2C5C930F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53CF895B-D90A-5032-8C74-8F2D5462DCD3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4FD92A0-CBA2-D8C5-785B-5EE8DD672276</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

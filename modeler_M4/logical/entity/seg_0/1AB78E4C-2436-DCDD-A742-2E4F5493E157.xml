@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AB78E4C-2436-DCDD-A742-2E4F5493E157" name="solasesoria">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>420CDEFF-7578-F38D-3208-552013B2BA99</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4B7A2BEF-42FF-F7A8-30F2-679D9A5E197E">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>6E9EAAB3-A5BB-A1C5-10AD-AD3176BC37A9</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="9536E78F-964D-FEF2-3368-17AC6D6F4023">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>AA65DB3E-2FA2-6772-1B4E-F4D75A53BA7A</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="81CA56D0-3B98-0D14-EF45-2BF4D64196F8">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>8E8B27CB-9987-BD8A-A494-C5519AA90B00</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detalle" id="B07FD1D3-B40D-6518-838D-BD58D4ED6CD8">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>6362E253-845B-6BBF-81FA-1BE08AD7C2C8</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente usuario" id="424FEE06-2FDC-EDA3-AD95-053254DB62DC">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>14EEDDA0-F4A7-1848-637B-88D7923134FF</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<referedAttribute>E8EC5DAC-1797-EC10-1B10-0BB59E1B6727</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC11260F-30DF-8B10-5C4B-F8DC246CCD21" name="solasesoria PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>F1A87C81-960C-0D72-C1E8-541B8F1417B6</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B7A2BEF-42FF-F7A8-30F2-679D9A5E197E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

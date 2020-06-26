@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ABB98C5-62EB-A765-278B-EBF579165BE0" name="cargo">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 22:57:28 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A95FC638-039D-91ED-3811-86934DA6C808">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 22:57:58 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre " id="3964EDC4-46B9-6A47-579B-5085C267F781">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 22:59:20 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="33FA6270-E28D-6ECB-14B1-D30F03B992B4">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 22:58:26 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="707C1F94-C73A-5BDA-DB17-D4F45BF90315" name="cargo_PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 22:57:58 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A95FC638-039D-91ED-3811-86934DA6C808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

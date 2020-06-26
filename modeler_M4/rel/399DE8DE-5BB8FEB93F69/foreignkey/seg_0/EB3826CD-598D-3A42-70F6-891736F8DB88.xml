@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB3826CD-598D-3A42-70F6-891736F8DB88" containerWithKeyObject="83BB2C1D-93C7-60DB-2BF7-5FE070620C4B" localFKIndex="6306CDE3-1B09-CD33-9D23-6CED9086C5C8" name="checklist_cliente_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:16:54 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<referredTableLongName>cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80092A24-EA3E-FC05-409B-6179C1D9279B</referredTableID>
+<keyObject>7C40DCE0-B275-6E7D-B32B-97C52453D0A8</keyObject>
+<referredKeyID>7C40DCE0-B275-6E7D-B32B-97C52453D0A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

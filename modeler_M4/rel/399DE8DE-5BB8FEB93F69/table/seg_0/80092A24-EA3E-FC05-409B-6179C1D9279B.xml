@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80092A24-EA3E-FC05-409B-6179C1D9279B" name="cliente">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:26:13 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario" id="2744F642-A667-9D02-0365-2D8F5FDF78F2">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:55:50 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass" id="63A7A88A-3694-3E06-B78E-A432FB040296">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:55:50 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="AEA16B36-2846-CCF2-5908-80363B7AF2F7">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:28:57 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_id" id="8DEEDB97-AD05-AE2D-5F18-9E000AE2F786">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:29:39 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4A47188-7898-D600-18B0-453DD614A58D" referredColumn="A95FC638-039D-91ED-3811-86934DA6C808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C40DCE0-B275-6E7D-B32B-97C52453D0A8" name="cliente_PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:26:48 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2744F642-A667-9D02-0365-2D8F5FDF78F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC1CAD45-3E12-9BB8-3070-6B9F1F91D324" name="cliente_cargo_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:29:39 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DEEDB97-AD05-AE2D-5F18-9E000AE2F786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="solasesoria_cliente_FK" directorySegmentName="seg_0" id="14EEDDA0-F4A7-1848-637B-88D7923134FF">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:24 UTC</createdTime>
+<generatorID>6DF4046F-E5F5-7042-21D5-E4D30DA12A7E</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<sourcePk>A40CCEFE-61A1-50FB-7EAB-3450C5F327F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B32F14FD-5599-FED6-695D-88EA9C6097F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AB78E4C-2436-DCDD-A742-2E4F5493E157</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

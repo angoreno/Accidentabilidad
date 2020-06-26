@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68293550-2443-91EF-4C3D-64BB05282A0D" containerWithKeyObject="83BB2C1D-93C7-60DB-2BF7-5FE070620C4B" localFKIndex="D89D3655-180D-7361-5C91-0D061DCAFA29" name="checklist_profesional_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:00:22 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<referredTableLongName>profesional</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13EA03E5-5635-F3D3-D94A-69CCD4901349</referredTableID>
+<keyObject>15190C88-F6CF-69FB-F147-D2B6EA50EAC8</keyObject>
+<referredKeyID>15190C88-F6CF-69FB-F147-D2B6EA50EAC8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

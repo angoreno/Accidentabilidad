@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83BB2C1D-93C7-60DB-2BF7-5FE070620C4B" name="checklist">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:03:47 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="88308A94-A00A-F6DA-DECC-F15046690608">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:11:59 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="057304A4-18F0-38E7-D808-F7C6013F23EF">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:11:59 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="1549B03D-D838-0B18-F0D3-8CA8426D0211">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:11:59 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesional_usuario" id="DF3755C4-81E4-10CA-2E34-04C607664271">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:00:22 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68293550-2443-91EF-4C3D-64BB05282A0D" referredColumn="2B675894-5E4C-4A48-2803-80B9CBC0EFEE"/>
+</associations>
+</Column>
+<Column name="cliente_usuario" id="7FFEDFAC-64EF-F102-53D9-1B95ED0FD4AE">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:16:54 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB3826CD-598D-3A42-70F6-891736F8DB88" referredColumn="2744F642-A667-9D02-0365-2D8F5FDF78F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C953CCCE-8D07-D606-9740-FD07F7451DEF" name="checklist_PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:11:59 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88308A94-A00A-F6DA-DECC-F15046690608"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D89D3655-180D-7361-5C91-0D061DCAFA29" name="checklist_profesional_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:00:22 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF3755C4-81E4-10CA-2E34-04C607664271"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6306CDE3-1B09-CD33-9D23-6CED9086C5C8" name="checklist_cliente_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:16:54 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFEDFAC-64EF-F102-53D9-1B95ED0FD4AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

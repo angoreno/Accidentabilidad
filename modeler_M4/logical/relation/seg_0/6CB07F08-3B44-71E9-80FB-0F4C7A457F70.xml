@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mejora_profesional_FK" directorySegmentName="seg_0" id="6CB07F08-3B44-71E9-80FB-0F4C7A457F70">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:24 UTC</createdTime>
+<generatorID>5AFBC1CC-950D-FB09-66B8-BA6F7BA2BCB6</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<sourcePk>7146AE20-BFEC-223E-18A8-7EDD2C5C930F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53CF895B-D90A-5032-8C74-8F2D5462DCD3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24144B7D-85F8-1830-FFEA-CF8E6D9392D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

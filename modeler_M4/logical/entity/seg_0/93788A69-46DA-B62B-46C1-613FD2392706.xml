@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93788A69-46DA-B62B-46C1-613FD2392706" name="detchecklist">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>21FD22BB-AB3D-5D17-EBDE-50BC30BF0A87</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F20035B9-BCA4-363A-879A-821EEC4473F8">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>8BA3A04A-7474-1A80-4AA8-29F20455ADEC</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="check" id="26588A04-3681-D4A4-82E8-D199F59CAE5F">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>9CCE07E9-11EF-816F-0FEB-7D3CBEE29EFF</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="CCD0C401-3FF4-3FAB-08FE-A6345844BE05">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>7CA339CB-93D2-9333-CFD6-392B6E76358B</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="checklist id" id="026510EF-1BDA-AC2D-CCA5-1AEF7A447187">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>892E6CD0-2595-1216-32DB-EA6E69228A3C</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<referedAttribute>75388355-00BD-7E3A-D71F-A6F06EFC6213</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18784986-8E74-CA10-E3CC-20B61EA3E1EE" name="detchecklist PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:23 UTC</createdTime>
+<generatorID>60BF2FCE-1B12-6A1E-0F23-C5C7DA237B2E</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F20035B9-BCA4-363A-879A-821EEC4473F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

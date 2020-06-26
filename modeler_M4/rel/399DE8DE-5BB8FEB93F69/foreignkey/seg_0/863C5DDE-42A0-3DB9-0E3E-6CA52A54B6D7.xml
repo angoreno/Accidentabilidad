@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="863C5DDE-42A0-3DB9-0E3E-6CA52A54B6D7" containerWithKeyObject="21FD22BB-AB3D-5D17-EBDE-50BC30BF0A87" localFKIndex="D0628FFD-58B1-62FB-4B4B-B0A104D5EC94" name="detchecklist_checklist_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:15:12 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<referredTableLongName>checklist</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83BB2C1D-93C7-60DB-2BF7-5FE070620C4B</referredTableID>
+<keyObject>C953CCCE-8D07-D606-9740-FD07F7451DEF</keyObject>
+<referredKeyID>C953CCCE-8D07-D606-9740-FD07F7451DEF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

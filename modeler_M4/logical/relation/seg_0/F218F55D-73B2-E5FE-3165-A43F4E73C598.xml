@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usuario_cargo_FK" directorySegmentName="seg_0" id="F218F55D-73B2-E5FE-3165-A43F4E73C598">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 12:19:24 UTC</createdTime>
+<generatorID>72FCAE29-7866-A8E6-96F8-A036F753827B</generatorID>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<engineerTo>
+<item key="399DE8DE-235B-C228-9638-5BB8FEB93F69" value="true"/>
+</engineerTo>
+<sourcePk>FDEC371D-4EFE-FD91-CE14-07B4F3C61EB6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D95DD69-9521-9847-415C-9A8FDA5ADD9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53CF895B-D90A-5032-8C74-8F2D5462DCD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

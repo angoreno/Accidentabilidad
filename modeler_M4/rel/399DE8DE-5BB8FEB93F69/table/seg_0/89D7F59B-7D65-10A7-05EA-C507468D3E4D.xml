@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89D7F59B-7D65-10A7-05EA-C507468D3E4D" name="asesoria">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:04:42 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BFF5F39B-C6FB-2A51-6182-4DEF70468277">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:23:27 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asesoria" id="D9D3A546-DC5A-BE11-54CD-CB42ABB1F580">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:23:57 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo" id="7B18E80B-96B8-1D17-A977-CEF95028B1DD">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:24:13 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesional_usuario" id="D28ADB7F-50BB-595A-11AA-B4065E462D08">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:59:44 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C366EE0-E1BC-EDBD-CCDF-B178EE872DCC" referredColumn="2B675894-5E4C-4A48-2803-80B9CBC0EFEE"/>
+</associations>
+</Column>
+<Column name="cliente_usuario" id="80DD6BAB-8032-C0EA-349A-7B62CC71D59A">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:59:52 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFC28854-665B-F731-B74B-4FC160E3B340" referredColumn="2744F642-A667-9D02-0365-2D8F5FDF78F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D345721-1301-EDB5-1EA4-FCA0DBD1738C" name="asesoria_PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:23:27 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFF5F39B-C6FB-2A51-6182-4DEF70468277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D7251D8-9C20-787A-8A2E-696EACA34233" name="asesoria_profesional_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:59:44 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D28ADB7F-50BB-595A-11AA-B4065E462D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E121331C-1C40-C1EB-630A-5FA24D428523" name="asesoria_cliente_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:59:52 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DD6BAB-8032-C0EA-349A-7B62CC71D59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="420CDEFF-7578-F38D-3208-552013B2BA99" name="solasesoria">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 00:13:16 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6E9EAAB3-A5BB-A1C5-10AD-AD3176BC37A9">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:55:30 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo" id="AA65DB3E-2FA2-6772-1B4E-F4D75A53BA7A">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:55:50 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="8E8B27CB-9987-BD8A-A494-C5519AA90B00">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:56:27 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detalle" id="6362E253-845B-6BBF-81FA-1BE08AD7C2C8">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:57:53 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_usuario" id="CC7F4901-F2BD-0183-A1CE-94137D3489C0">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:58:01 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DF4046F-E5F5-7042-21D5-E4D30DA12A7E" referredColumn="2744F642-A667-9D02-0365-2D8F5FDF78F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1A87C81-960C-0D72-C1E8-541B8F1417B6" name="solasesoria_PK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:55:30 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9EAAB3-A5BB-A1C5-10AD-AD3176BC37A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCA99FFB-4F12-1B46-79DC-BF1A161C49B7" name="solasesoria_cliente_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-26 01:58:00 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC7F4901-F2BD-0183-A1CE-94137D3489C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

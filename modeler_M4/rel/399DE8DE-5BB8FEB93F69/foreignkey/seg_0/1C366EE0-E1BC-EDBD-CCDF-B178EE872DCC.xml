@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C366EE0-E1BC-EDBD-CCDF-B178EE872DCC" containerWithKeyObject="89D7F59B-7D65-10A7-05EA-C507468D3E4D" localFKIndex="1D7251D8-9C20-787A-8A2E-696EACA34233" name="asesoria_profesional_FK">
+<createdBy>Isaac Pizarro C</createdBy>
+<createdTime>2020-06-25 23:59:44 UTC</createdTime>
+<ownerDesignName>modeler_M4</ownerDesignName>
+<referredTableLongName>profesional</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13EA03E5-5635-F3D3-D94A-69CCD4901349</referredTableID>
+<keyObject>15190C88-F6CF-69FB-F147-D2B6EA50EAC8</keyObject>
+<referredKeyID>15190C88-F6CF-69FB-F147-D2B6EA50EAC8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
