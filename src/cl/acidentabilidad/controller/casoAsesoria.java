@@ -1,4 +1,4 @@
-package cl.singleton.conexion;
+package cl.acidentabilidad.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
