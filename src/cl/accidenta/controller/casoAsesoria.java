@@ -1,4 +1,4 @@
-package cl.acidentabilidad.controller;
+package cl.accidenta.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -51,8 +51,6 @@ public class casoAsesoria extends HttpServlet {
 		salida.println("<br><br>");
 		salida.println("Empresa solicitante: "+request.getParameter("empresa"));
 		salida.println("<br><br>");
-		
-	
 		
 		
 	}

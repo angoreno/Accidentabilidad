@@ -14,7 +14,7 @@ public class conexion {
 			if(coneccion==null) {
 				Runtime.getRuntime().addShutdownHook(new getClose());
 				Class.forName("oracle.jdbc.driver.OracleDriver"); 
-				coneccion=DriverManager.getConnection("jdbc:oracle:thin@localhost:1521:xe", "NATS", "nat123");
+				coneccion=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "SQLConsu", "Consu1234");
 				System.out.println("Conexión correcta"); 
 			}
 			

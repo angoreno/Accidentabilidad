@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="#" method="post">
+	<form action="ControllerAccidenta" method="post">
 		<!-- acá va el servlet que recibirá la información -->
 
 		<label for="rut">RUT</label> 
